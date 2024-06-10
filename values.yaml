@@ -1,0 +1,14 @@
+appName: myweb
+
+port: 5173
+
+namespace: web
+
+configmap:
+  name: myhelmapp-configmap-v2
+  data:
+    CUSTOM_HEADER: 'This app was deployed DoTrang!'
+
+image:
+  name: trangdt25/webvdt
+  tag: v1.0.1
