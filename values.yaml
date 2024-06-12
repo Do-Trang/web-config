@@ -10,5 +10,5 @@ configmap:
     CUSTOM_HEADER: 'This app was deployed DoTrang!'
 
 image:
-  name: trangdt25/webvdt
+  name: trangdt25/web-vdt
   tag: v1.0.8
