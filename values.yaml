@@ -11,4 +11,4 @@ configmap:
 
 image:
   name: trangdt25/webvdt
-  tag: v2.0
+  tag: v2.1
